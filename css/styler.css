@@ -63,11 +63,12 @@ html, body{
 
 /* navigation section */
 
-.navbar{
+.navbar {
 	padding: 10px;
 	width: 100%;
-	height: 50px;
+	height: 60px;
 	background: var(--bgcolor) !important;
+	z-index: 2;
 }
 
 .nav-item {
@@ -80,6 +81,7 @@ html, body{
 }
 
 .navbar a{
+	display: inline-block;
 	font-size: 18px;
 	margin-right:20px;
 }
@@ -87,7 +89,7 @@ html, body{
 /* welcome section */
 
 #welcome-section {
-	min-height: 100vh;
+	height: 100vh;
 	background-color: var(--bgcolor);
 }
 
@@ -138,7 +140,8 @@ html, body{
 }
 
 #tool-box {
-	min-height: 100vh;
+	height: 100vh;
+	z-index: 1;
 }
 
 #tool-box h2 {
