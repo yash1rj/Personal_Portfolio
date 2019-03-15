@@ -30,7 +30,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -53,6 +55,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Re-setting done above */
 
 html, body{
 	font-family: 'Roboto', sans-serif;
@@ -158,14 +162,6 @@ html, body{
 	line-height: 35px;
 }
 
-.tool-items {
-	margin-top: 30px;
-	display: grid;
-	width: 60%;
-	grid-gap: 20px;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
 .tools{
 	background-color: var(--txtcolor);
 	border-radius: 5px;
@@ -214,7 +210,7 @@ html, body{
 }
 
 #projects {
-	min-height: 100vh;
+	height: 100vh;
 }
 
 #projects h2 {
@@ -244,6 +240,7 @@ html, body{
 
 #about-me {
 	min-height: 100vh;
+	min-width:100%;
 }
 
 #about-me h2 {
@@ -268,7 +265,7 @@ html, body{
 }
 
 #contact {
-	min-height: 100vh;
+	height: 100vh;
 }
 
 #contact h2 {
