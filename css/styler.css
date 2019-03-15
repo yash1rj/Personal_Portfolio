@@ -265,7 +265,7 @@ html, body{
 }
 
 #contact {
-	height: 100vh;
+	height: 85vh;
 }
 
 #contact h2 {
@@ -280,4 +280,24 @@ html, body{
 	font-family: 'Exo', sans-serif;
 	font-size: 30px;
 	line-height: 35px;
+}
+
+/* footer section */
+
+footer{
+	height: 10vh;
+	background-color: var(--bgcolor);
+	color: var(--white);
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: -5px;
+}
+
+footer a{
+	text-decoration: none;
+	color: var(--txtcolor);
+}
+
+.social-link {
+	float:left;
 }
