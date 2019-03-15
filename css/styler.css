@@ -228,24 +228,7 @@ html, body{
 	line-height: 35px;
 }
 
-.projects{
-	display: grid;
-	width: 80%;
-	margin-top: 30px;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: 30px;
-	justify-items: center;
-	align-items: center;
-}
-
-.project-tile{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-}
-
-.card:hover{
+.card:hover {
 	top: -3px;
 }
 
@@ -302,7 +285,7 @@ html, body{
 
 /* footer section */
 
-footer{
+footer {
 	height: 10vh;
 	background-color: var(--bgcolor);
 	color: var(--white);
@@ -311,7 +294,7 @@ footer{
 	margin-top: -5px;
 }
 
-footer a{
+footer a {
 	text-decoration: none;
 	color: var(--txtcolor);
 }
