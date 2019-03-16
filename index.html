@@ -15,226 +15,287 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		
-		<link rel="stylesheet" type="text/css" href="./css/styler.css">
+		<link rel="stylesheet" type="text/css" href="./css/styler2.css">
 
 		<title>YASH RAJ | Portfolio</title>
 	</head>
 	
 	<body>
+        
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
+            <div class="container-fluid">
+                <a href="#welcome-section"><img class="navbar-brand" src="./media/logo.JPG" alt="logo"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="#welcome-section"><i class="fas fa-home"></i> Home</a>
+                        <a class="nav-item nav-link" href="#tools-anchor"><i class="fas fa-toolbox"></i> Tools</a>
+                        <a class="nav-item nav-link" href="#projects-anchor"><i class="fas fa-project-diagram"></i> Projects</a>
+                        <a class="nav-item nav-link" href="#about-anchor"><i class="fas fa-user-tie"></i> About</a>
+                        <a class="nav-item nav-link" href="#contacts-anchor"><i class="fas fa-envelope"></i> Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <main role="main">
 
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
-			<div class="container-fluid">
-				<a href="#welcome-section"><img class="navbar-brand" src="./media/logo.JPG" alt="logo"/></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="navbar-nav ml-auto">
-						<a class="nav-item nav-link" href="#welcome-section"><i class="fas fa-home"></i> Home</a>
-						<a class="nav-item nav-link" href="#tools-anchor"><i class="fas fa-toolbox"></i> Tools</a>
-						<a class="nav-item nav-link" href="#projects-anchor"><i class="fas fa-project-diagram"></i> Projects</a>
-						<a class="nav-item nav-link" href="#about-anchor"><i class="fas fa-user-tie"></i> About</a>
-						<a class="nav-item nav-link" href="#contacts-anchor"><i class="fas fa-envelope"></i> Contact</a>
-					</div>
-				</div>
-			</div>
-		</nav>
+           <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <section id="welcome-section" class="text-center d-flex justify-content-center flex-column align-items-center">
+                            <h1>Hi, I'm Yash.</h1>
+                            <div class="w-100"></div>
+                            <p>A Soon-To-Be Full Stack Web Developer based in Pune, India.</p>
+                            <div class="w-100"></div>
+                            <p>I do Web Testing and learn Web Development.</p>
+                            <div class="w-100"></div>
+                            <div class="scroll mx-auto">
+                                <a href="#tools-anchor"><i class="fas fa-angle-down fa-3x"></i></a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <span class="anchor" id="tools-anchor"></span>
+                        <section id="tool-box" class="text-center d-flex justify-content-center flex-column align-items-center jumbotron">
+                            <h2 class="mb-3">My <span class="tools-highlight"> tools</span> :</h2>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
+                                        <div class="tools" id="tool-1">
+                                            <p><i class="fab fa-html5"></i> HTML5</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
+                                        <div class="tools" id="tool-2">
+                                            <p><i class="fab fa-css3"></i> CSS/CSS3</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
+                                            <div class="tools" id="tool-3">
+                                                <p><img src="https://img.icons8.com/color/28/000000/bootstrap.png"> Bootstrap4</p>
+                                            </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
+                                            <div class="tools" id="tool-4">
+                                                <p><i class="fab fa-js"></i> JavaScript</p>
+                                            </div>
+                                    </div>
+                                    <div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
+                                        <div class="tools" id="tool-5">
+                                            <p><img src="https://img.icons8.com/ios/28/000000/jquery-filled.png"> JQuery</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
+                                        <div class="tools" id="tool-6">
+                                            <p><i class="fab fa-sass"></i> Sass</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="d-inline col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
+                                        <div class="tools" id="tool-7">
+                                            <p><i class="fab fa-github-square"></i> Github</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
+                                        <div class="tools" id="tool-8">
+                                            <p><img src="https://img.icons8.com/ios-glyphs/30/000000/visual-studio.png"> VS Code</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>             
+            </div>
 
-		<main class="container-fluid mx-0 px-0" role="main">
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<section id="welcome-section" class="text-center d-flex justify-content-center flex-column align-items-center">
-						<h1>Hi, I'm Yash.</h1>
-						<div class="w-100"></div>
-						<p>A Soon-To-Be Full Stack Web Developer based in Pune, India.</p>
-						<div class="w-100"></div>
-						<p>I do Web Testing and learn Web Development.</p>
-						<div class="w-100"></div>
-						<div class="scroll mx-auto">
-							<a href="#tools-anchor"><i class="fas fa-angle-down fa-3x"></i></a>
-						</div>
-					</section>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<span class="anchor" id="tools-anchor"></span>
-					<section id="tool-box" class="row text-center d-flex justify-content-center flex-column align-items-center jumbotron">
-						<h2 class="mb-3">My <span class="tools-highlight"> tools</span> :</h2>
-						<div class="container">
-							<div class="row">
-								<div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
-									<div class="tools" id="tool-1">
-										<p><i class="fab fa-html5"></i> HTML5</p>
-									</div>
-								</div>
-								<div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
-									<div class="tools" id="tool-2">
-										<p><i class="fab fa-css3"></i> CSS/CSS3</p>
-									</div>
-								</div>
-								<div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
-									<div class="tools" id="tool-3">
-										<p><i class="fab fa-js"></i> JavaScript</p>
-									</div>
-								</div>
-							</div>
-							<br />
-							<div class="row">
-								<div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
-									<div class="tools" id="tool-4">
-										<p><img src="https://img.icons8.com/color/28/000000/bootstrap.png"> Bootstrap4</p>
-									</div>
-								</div>
-								<div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
-									<div class="tools" id="tool-5">
-										<p><img src="https://img.icons8.com/ios/28/000000/jquery-filled.png"> JQuery</p>
-									</div>
-								</div>
-								<div class="d-inline col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 my-2">
-									<div class="tools" id="tool-6">
-										<p><i class="fab fa-sass"></i> Sass</p>
-									</div>
-								</div>
-							</div>
-							<br />
-							<div class="row">
-								<div class="d-inline col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
-									<div class="tools" id="tool-7">
-										<p><i class="fab fa-github-square"></i> Github</p>
-									</div>
-								</div>
-								<div class="d-inline col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
-									<div class="tools" id="tool-8">
-										<p><img src="https://img.icons8.com/ios-glyphs/30/000000/visual-studio.png"> VS Code</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<span class="anchor" id="projects-anchor"></span>
-					<section id="projects" class="row text-center d-flex flex-column justify-content-center align-items-center jumbotron">
-						<h2>Some of my <span class="project-highlight"> projects</span>:</h2>
-						<div class="projects">
-							<div class="project-tile d-flex flex-column align-items">
-								<a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
-								<p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
-							</div>
-							<div class="project-tile">
-								<a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
-								<p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
-							</div>
-							<div class="project-tile">
-								<a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
-								<p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
-							</div>
-							<div class="project-tile">
-								<a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
-								<p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
-							</div>
-							<div class="project-tile">
-								<a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
-								<p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
-							</div>
-							<div class="project-tile">
-								<a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
-								<p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
-							</div>
-						</div>
-					</section>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<span class="anchor" id="about-anchor"></span>
-					<section id="about-me" class="row text-center d-flex justify-content-center flex-column align-items-center jumbotron">
-						<h2 class="pt-5 mb-3">About <span class="about-highlight">me</span>:</h2>
-						<br>
-						<div class="w-100"></div>
-						<div class="about-content">
-							<p class="text-justify">
-								Hi, My name is <strong><a id="profile-link" href="https://github.com/yash1rj/" target="_blank">Yash Raj</a></strong> from India. I am a Software Engineer with a focus on <strong>Web Development</strong>. 
-								Besides, I am really passionate about <strong>JavaScript</strong> and <strong>React</strong>. I got a bachelor of Electronics and Communication Engineering at 
-								R.N.S. Institute Of Technology (2014 - 2018). And 2018 - present, I work for Accenture as an Application Development Associate.
-							</p>
-							<hr />
-							<p class="text-justify">
-								As you can see, this website is my personal portfolio webpage, which 
-								I created while learning Web Development from <a href="https://www.freecodecamp.org">freeCodeCamp</a> in my spare time.              
-								And I have started to share my latest work consistently. Each project consists of its link for preview on Github. 
-								In fact, before digging deeper into freeCodeCamp or Web Development, I self-learned HTML5 &amp; CSS3, JavaScript, jQuery and Bootstrap. 
-								I am in the path of learning Angular7, NodeJS &amp; ExpressJS, React, MongoDB and many more things. 
-								So, below are some informations about my skills that I self-evaluate honestly:
-							</p>
-						
-							<div class="d-flex flex-row btn-group" role="group">
-								<button type="button" class="btn badge-pill btn-info mr-1">
-									C/C++ <span class="badge badge-light">80%</span>
-								</button>
-								<button type="button" class="btn badge-pill btn-success mr-1">
-									HTML5 & CSS3 <span class="badge badge-light">90%</span>
-								</button>
-								<button type="button" class="btn badge-pill btn-danger mr-1">
-									Git & GitHub <span class="badge badge-light">80%</span>
-								</button>
-								<button type="button" class="btn badge-pill btn-info mr-1">
-									JavaScript <span class="badge badge-light">10%</span>
-								</button>
-								<button type="button" class="btn badge-pill btn-success mr-1">
-									Bootstrap 4 <span class="badge badge-light">90%</span>
-								</button>
-								<button type="button" class="btn badge-pill btn-danger">
-									Sass <span class="badge badge-light">70%</span>
-								</button>
-							</div>
-						</div>
-					</section>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-					<span class="anchor" id="contacts-anchor"></span>
-					<section id="contact" class="row text-center d-flex justify-content-center flex-column align-items-center jumbotron">
-						<h2><span class="contact-highlight">Contact</span> me through:</h2>
-						<p><a href="mailto:yashrj130@gmail.com"><i class="fas fa-envelope"></i> yashrj130@gmail.com</a></p>
-						
-					</section>
-				</div>
-			</div>
-		</main>
-		
-		<footer class="footer text-center py-3 d-flex justify-content-center flex-column align-items-center">
-			<div class="copyright">&copy; 2019 <span class="copyright__name">Yash Raj</span></div>
-			<hr class="my-1"/>
-			<div class="social clearfix">
-				<div class="social-link mr-4 border-right border-warning pr-3">
-					<p>
-					<a target="_blank" href="https://www.instagram.com/yashrj527/"><i class="fab fa-instagram"></i> Instagram </a></p>
-				</div>
-				<div class="social-link mr-4 border-right border-warning pr-3">
-					<p>
-					<a target="_blank" href="https://web.facebook.com/yash1rj"><i class="fab fa-facebook-square"></i> Facebook </a></p>
-				</div>
-				<div class="social-link">
-					<p><a target="_blank" href="https://github.com/yash1rj"><i class="fab fa-github-square"></i> Github</a></p>
-				</div>
-			</div>
-		</footer>
-		
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <span class="anchor" id="projects-anchor"></span>
+                        <section id="projects" class="text-center d-flex flex-column justify-content-center align-items-center jumbotron">
+                            <h2>Some of my <span class="project-highlight"> projects</span>:</h2>
+                            <div class="projects container">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 project-tile d-flex flex-column align-items-center">
+                                        <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                                        <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 project-tile d-flex flex-column align-items-center">
+                                        <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                                        <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 project-tile d-flex flex-column align-items-center">
+                                        <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                                        <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 project-tile d-flex flex-column align-items-center">
+                                        <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                                        <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 project-tile d-flex flex-column align-items-center">
+                                        <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                                        <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 project-tile d-flex flex-column align-items-center">
+                                        <a href="https://erickmurage.github.io/Random-Machine/" target="_blank" ><img src="http://via.placeholder.com/250x250" alt="Random quote generator"></a>
+                                        <p><a href="https://erickmurage.github.io/Random-Machine/" target="_blank">Random Quotes Generator</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <span class="anchor" id="about-anchor"></span>
+                        <section id="about-me" class="text-center d-flex justify-content-center flex-column align-items-center jumbotron">
+                            <h2 class="pt-5 mb-3">About <span class="about-highlight">me</span>:</h2>
+                            <div class="about-content container-fluid">
+                                <div class="row">
+                                    <p class="col text-justify">
+                                        Hi, My name is <strong><a id="profile-link" href="https://github.com/yash1rj/" target="_blank">Yash Raj</a></strong> from India. I am a Software Engineer with a focus on <strong>Web Development</strong>. 
+                                        Besides, I am really passionate about <strong>JavaScript</strong> and <strong>React</strong>. I got a bachelor of Electronics and Communication Engineering at 
+                                        R.N.S. Institute Of Technology (2014 - 2018). And 2018 - present, I work for Accenture as an Application Development Associate.
+                                    </p>
+
+                                    <div class="w-100"><hr class="bg-dark" /></div>
+
+                                    <p class="col text-justify">
+                                        As you can see, this website is my personal portfolio webpage, which 
+                                        I created while learning Web Development from <a href="https://www.freecodecamp.org">freeCodeCamp</a> in my spare time.              
+                                        And I have started to share my latest work consistently. Each project consists of its link for preview on Github. 
+                                        In fact, before digging deeper into freeCodeCamp or Web Development, I self-learned HTML5 &amp; CSS3, JavaScript, jQuery and Bootstrap. 
+                                        I am in the path of learning Angular7, NodeJS &amp; ExpressJS, React, MongoDB and many more things. 
+                                        So, below are some informations about my skills that I self-evaluate honestly:
+                                    </p>
+
+                                    <div class="w-100"><hr class="bg-dark" /></div>
+
+                                    <div class="col flex-wrap btn-group" role="group">
+                                        <button type="button" class="btn badge-pill btn-info mr-1">
+                                            C/C++ <span class="badge badge-light">80%</span>
+                                        </button>
+                                        <button type="button" class="btn badge-pill btn-success mr-1">
+                                            HTML5 & CSS3 <span class="badge badge-light">90%</span>
+                                        </button>
+                                        <button type="button" class="btn badge-pill btn-danger mr-1">
+                                            Git & GitHub <span class="badge badge-light">80%</span>
+                                        </button>
+                                        <button type="button" class="btn badge-pill btn-info mr-1">
+                                            JavaScript <span class="badge badge-light">10%</span>
+                                        </button>
+                                        <button type="button" class="btn badge-pill btn-success mr-1">
+                                            Bootstrap 4 <span class="badge badge-light">90%</span>
+                                        </button>
+                                        <button type="button" class="btn badge-pill btn-danger">
+                                            Sass <span class="badge badge-light">70%</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <span class="anchor" id="contacts-anchor"></span>
+                        <section id="contact" class="text-center d-flex justify-content-center flex-column align-items-center jumbotron">
+                            <h2><span class="contact-highlight">Contact</span> me through:</h2>
+                            
+                            <div class="container">
+                                <div class="row justify-content-center py-3">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 card">
+                                        <div class="card-body" id="contact-details">
+                                            <h5 class="card-title">Let's get in touch!</h5>
+                                            <p class="card-text"><a href="mailto:yashrj130@gmail.com"><i class="fas fa-envelope"></i> yashrj130@gmail.com</a></p>
+                                            <p class="card-text"><i class="fas fa-map-marker-alt"></i> Pune, India</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 card">
+                                        <div class="card-body" id="contact-form">
+                                            <form action="#">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                                                    </div>
+                                                    <input type="text" class="form-control" id="InputName" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                                <br />
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-envelope"></i></span>
+                                                    </div>
+                                                    <input type="email" class="form-control" id="InputEmail" placeholder="joe@abc.com" aria-label="Email" aria-describedby="basic-addon2">
+                                                </div>
+                                                <br />
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text" id="basic-addon3"><i class="fas fa-pen"></i></span>
+                                                    </div>
+                                                    <textarea type="email" class="form-control" id="FormControlTextarea" rows="3" placeholder="Message" aria-label="Message" aria-describedby="basic-addon3"></textarea>
+                                                </div>
+                                                <br />
+                                                <button id="contact-submit" type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="container-fluid">
+            <div class="row">
+                <footer class="col footer text-center py-3 d-flex justify-content-center flex-column align-items-center">
+                    <div class="copyright">&copy; 2019 <span class="copyright__name">Yash Raj</span></div>
+                    <hr class="my-1"/>
+                    <div class="social">
+                        <div class="social-link mr-4 border-right border-warning pr-3">
+                            <p>
+                            <a target="_blank" href="https://www.instagram.com/yashrj527/"><i class="fab fa-instagram"></i> Instagram </a></p>
+                        </div>
+                        <div class="social-link mr-4 border-right border-warning pr-3">
+                            <p>
+                            <a target="_blank" href="https://web.facebook.com/yash1rj"><i class="fab fa-facebook-square"></i> Facebook </a></p>
+                        </div>
+                        <div class="social-link">
+                            <p><a target="_blank" href="https://github.com/yash1rj"><i class="fab fa-github-square"></i> Github</a></p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-  </body>
+    
+    </body>
 </html>
