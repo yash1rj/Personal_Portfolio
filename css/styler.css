@@ -250,6 +250,8 @@ html, body{
 }
 
 .project-tile img {
+	height: 250px;
+	width: 250px;
 	border-radius: 7px;
 	margin-bottom: 10px;
 }
